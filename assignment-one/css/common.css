@@ -1,0 +1,13 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
